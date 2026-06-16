@@ -172,8 +172,8 @@ nav {
   max-width: 1200px;
   width: 100%;
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 48px;
+  grid-template-columns: 1.35fr 0.65fr;
+  gap: 40px;
   align-items: center;
 }
 
@@ -216,7 +216,7 @@ nav {
 
 h1 {
   font-family: var(--font-title);
-  font-size: clamp(2.4rem, 5.5vw, 4.5rem);
+  font-size: clamp(2.2rem, 5vw, 4.2rem);
   font-weight: 800;
   line-height: 1.0;
   letter-spacing: -0.035em;
