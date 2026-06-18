@@ -55,7 +55,10 @@ document.addEventListener('DOMContentLoaded', () => {
   // 3.1 Texto dinâmico que alterna no Hero
   const dynamicTextEl = document.getElementById('dynamic-text');
   if (dynamicTextEl) {
-    const words = ["drywall", "pintura", "manutenção residencial"];
+    const isSpanish = document.documentElement.lang === 'es';
+    const words = isSpanish 
+      ? ["drywall", "pintura", "mantenimiento"]
+      : ["drywall", "pintura", "manutenção residencial"];
     let wordIndex = 0;
     
     dynamicTextEl.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
