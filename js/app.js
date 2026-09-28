@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const isSpanish = document.documentElement.lang === 'es';
     const words = isSpanish 
       ? ["drywall", "pintura", "mantenimiento"]
-      : ["drywall", "pintura", "manutenção residencial"];
+      : ["drywall", "pintura", "manutenção"];
     let wordIndex = 0;
     
     dynamicTextEl.style.transition = 'opacity 0.35s ease, transform 0.35s ease';
